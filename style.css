@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+body {
+    background-color: #203235;
+    font-family: Sarala, Helvetica, sans-serif;
+}
+
+.container {
+    color: #00ff8f;
+    padding: 46px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.profile h1{
+    text-align: center;
+ }
+
+.profile p{
+   text-align: center;
+   letter-spacing: 1.4px;
+}
+
+.photo {
+    width: 220px;
+    border-radius: 50%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+
+}
+
+.social img {
+    width: 60px;
+    padding: 8px;
+}
+
+.logo-social path {
+    logo-social: #000;
+}
