@@ -22,6 +22,8 @@ footer {
 .container {
     display: flex;
     padding: 46px;
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 .profile {
@@ -64,8 +66,13 @@ footer {
 }
 
 .cases .case {
-   padding: 8px;
+   margin: 8px;
 }
+
+.cases .case img {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 4px;
+ }
 
 .more-case {
     width: 60px;
@@ -74,4 +81,22 @@ footer {
 
 .cases .case img {
     width: 200px;
+}
+
+@media only screen and (max-width: 950px){
+    .container {
+        flex-direction: column;
+        margin: 8px;
+        align-items: center;
+    }
+    .cases {
+        display: flex;
+        flex-direction: column;
+    }
+    .cases .case img {
+        width:  100%;
+    }
+    footer {
+        text-align: center;
+    }
 }
