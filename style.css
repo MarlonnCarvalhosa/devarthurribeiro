@@ -5,10 +5,22 @@ body {
 body {
     background-color: #203235;
     font-family: Sarala, Helvetica, sans-serif;
+    color: #00ff8f;
+    
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.center {
+    text-align: center;
 }
 
 .container {
-    color: #00ff8f;
+    display: flex;
     padding: 46px;
 }
 
@@ -32,6 +44,7 @@ body {
 .photo {
     width: 220px;
     border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .social {
@@ -45,6 +58,20 @@ body {
     padding: 8px;
 }
 
-.logo-social path {
-    logo-social: #000;
+.cases {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cases .case {
+   padding: 8px;
+}
+
+.more-case {
+    width: 60px;
+    cursor: pointer;
+}
+
+.cases .case img {
+    width: 200px;
 }
