@@ -18,8 +18,8 @@
 
 <br/>
 <br/>
-<img src="https://github-readme-stats.vercel.app/api?username=devarthurribeiro&&show_icons=true&theme=dark&line_height=27&v=5" alt="Arthur Ribeiro GitHub Stats" />
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devarthurribeiro&theme=dark&hide=css" />
+<img src="https://github-readme-stats.vercel.app/api?username=devarthurribeiro&&show_icons=true&line_height=27&v=5" alt="Arthur Ribeiro GitHub Stats" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devarthurribeiro&hide=css" />
 
 <p align="center"> 
   Visitor count<br>
